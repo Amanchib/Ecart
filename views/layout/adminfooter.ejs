@@ -1,0 +1,38 @@
+</div><!--/.nav-collapse -->
+<br>
+<br>
+
+<hr>
+
+<p class="text-center">&COPY; ShoppingCart </p>
+
+
+ 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+
+
+
+<script>$(function(){
+
+
+
+    if($('textarea#ta').length){
+        CKEDITOR.replace('ta');
+    }
+   });
+   
+   
+   $('a.confirmdeletion').on('click',function(){
+       if(!confirm('Confirm deletion'))
+       return false;
+   });
+   
+   
+   </script>
+
+
+</body>
+
+</script>
+</html>
